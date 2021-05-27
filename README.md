@@ -9,23 +9,6 @@ Import the package as follows:
 ```shell
 $ brane import sasjaderuijter/etl
 ```
-## Running package in JupyterLab
-Import the package using BraneScript in a JupyterLab notebook.
-```shell
-import etl;
-```
 
-Create the titanic training data, using the dataset _titanic.csv_
-```shell
-create_titanic_trainset("/data/titanic");
-```
-
-Create the diabetes training data, using the dataset _diabetes.csv_
-```shell
-create_diabete_trainset("/data/diabetes");
-```
-
-Create the heart disease training data, using the dataset _heart_disease.csv_
-```shell
-create_heart_disease_trainset("/data/heart_disease");
-```
+For examples on how to run the functions in BraneScript, see the comprehensive GitHub repository **Group12_WSCBS**:
+https://github.com/sasjaderuijter/Group12_WSCBS
