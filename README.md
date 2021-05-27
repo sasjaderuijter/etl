@@ -9,7 +9,12 @@ Import the package as follows:
 ```shell
 $ brane import sasjaderuijter/etl
 ```
-## Running package
+## Running package in JupyterLab
+Import the package using BraneScript in a JupyterLab notebook.
+```shell
+import etl;
+```
+
 Create the titanic training data, using the dataset _titanic.csv_
 ```shell
 create_titanic_trainset("/data/titanic");
